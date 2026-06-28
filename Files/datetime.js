@@ -1,5 +1,5 @@
 /**
- * datetime.js — v1.1.5
+ * datetime.js — v1.2.0
  * Description: Live clock using Intl.DateTimeFormat
  * Author: Stephan Pringle
  * Updated: 2026-06-27
