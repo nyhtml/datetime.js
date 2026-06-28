@@ -1,5 +1,5 @@
 /**
- * datetime.js — v1.1.1
+ * datetime.js — v1.1.2
  * Description: Live clock using Intl.DateTimeFormat
  * Author: Stephan Pringle
  * Updated: 2026-06-27
@@ -40,4 +40,4 @@ function goforit() {
   setInterval(getthedate, 1000);
 }
 
-window.onload = goforit;
+document.addEventListener("DOMContentLoaded", goforit);
