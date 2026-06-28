@@ -1,4 +1,9 @@
-// datetime.js — 1.1.0
+/**
+ * datetime.js — v1.1.1
+ * Description: Live clock using Intl.DateTimeFormat
+ * Author: Stephan Pringle
+ * Updated: 2026-06-27
+ */
 
 function getthedate() {
   const dateOptions = {
@@ -26,7 +31,7 @@ function getthedate() {
 
   const clockElement = document.getElementById("clock");
   if (clockElement) {
-    clockElement.innerHTML = `${formattedDate}, at ${formattedTime}.`;
+    clockElement.textContent = `${formattedDate}, at ${formattedTime}.`;
   }
 }
 
